@@ -1,0 +1,214 @@
+body {
+    padding: 0; 
+    margin: 0;
+}
+
+.navigation {
+    text-align: left;
+    text-emphasis: none;
+    font-family: "Lato", helvetica, sans-serif;
+    font: normal normal 900 18px/22px Lato;
+    font-size: 16px;
+    letter-spacing: 0.45px;
+    word-spacing: 30px;
+}
+
+#navBar {
+    padding: 60px;
+    padding-left: 120px;
+    justify-content: left;
+}
+
+#navBar a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #9a584d;
+}
+
+#navBar a:hover {
+    color: #CB8158;
+}
+
+#skillsGrid {
+    margin: 0px;
+    display: grid;
+    max-height: 400px;
+    width: 1140px;
+    padding-left: 160px;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 350px 250px 250px;
+    grid-template-areas: 
+    "research design webDev"
+    "connect connect connect"
+    "footer footer footer";
+}
+
+#research {
+    grid-area: research;
+    width: 350px;
+    max-height: 350px;
+    background: #D1C2BB4D 0% 0% no-repeat padding-box;
+    padding-top: 36px;
+    margin: 0px auto;
+}
+
+#design {
+    grid-area: design;
+    width: 350px;
+    max-height: 350px;
+    background: #D1C2BB4D 0% 0% no-repeat padding-box;
+    padding-top: 36px;
+    margin: 0px auto;
+}
+
+#webDev {
+    grid-area: webDev;
+    width: 350px;
+    max-height: 350px;
+    background: #D1C2BB4D 0% 0% no-repeat padding-box;
+    padding-top: 36px;
+    margin: 0px auto;
+}
+
+#connect {
+    grid-area: connect;
+    height: 250px;
+    padding-top: 50px;
+}
+
+#footer {
+    grid-area: footer;
+    background: #9A584D;
+    height: 250px;
+}
+
+
+h1 {
+    font: normal normal bold 40px/55px Playfair Display;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font: normal normal bold 28px/55px Playfair Display;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    padding-bottom: 0px;
+    margin: 0 auto;
+}
+
+p {
+    font: normal normal normal 16px/22px Lato;
+    letter-spacing: 0.4px;
+    color: #333333;
+    text-align: center;
+}
+
+.gridCopy {
+    width: 285px;
+    height: 107px;
+    padding-left: 32px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+.headerText {
+    width: 650px;
+    text-align: center;
+    padding-left: 391px;
+    padding-bottom: 20px;
+}
+
+.container {
+    padding-bottom: 30px;
+}
+
+
+a {
+    text-align: left;
+    font: normal normal bold 18px/20px Lato;
+    letter-spacing: 0.45px;
+    color: #9A584D;
+    text-decoration-line: underline;
+}
+
+#icon1 {
+    width: 83.77px ;
+    height: 83.79px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#icon2 {
+    width: 81.55px;
+    height: 84.64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#icon3 {
+    width: 103.51px;
+    height: 85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: #9A584D;
+    text-align: center;
+    font: normal normal bold 40px/55px Playfair Display;
+    margin: 0;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 587px;
+    padding-left: 587px;
+    padding-top: 25px;
+    margin: 0;
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 82px;
+}
+
+  
+@media only screen and (max-width: 1000px) {
+    #navBar {
+        display: none;
+    }
+
+    .navigation {
+        margin-left: auto;
+    }
+}
+
+  @media only screen and (max-width: 600px) {
+    .headerText {
+      position: static;
+      margin: 20px;
+    }
+
+    #skillsGrid {
+        margin: 0px auto;
+        display: grid;
+        grid-template-rows: 350px 350px 350px;
+        grid-template-columns: 1fr; 
+        grid-template-areas: 
+        "research"
+        "design"
+        "webDev"
+    }
+  }

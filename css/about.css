@@ -30,11 +30,12 @@ body {
 }
 
 #skillsGrid {
-    margin: 0px;
+    margin: 0px auto;
     display: grid;
     max-height: 400px;
     width: 1140px;
     padding-left: 160px;
+    padding-right: 160px;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 350px 250px 250px;
     grid-template-areas: 
@@ -126,14 +127,6 @@ p {
 }
 
 
-a {
-    text-align: left;
-    font: normal normal bold 18px/20px Lato;
-    letter-spacing: 0.45px;
-    color: #9A584D;
-    text-decoration-line: underline;
-}
-
 #icon1 {
     width: 83.77px ;
     height: 83.79px;
@@ -183,32 +176,3 @@ img.logo {
     margin-right: auto;
     padding-top: 82px;
 }
-
-  
-@media only screen and (max-width: 1000px) {
-    #navBar {
-        display: none;
-    }
-
-    .navigation {
-        margin-left: auto;
-    }
-}
-
-  @media only screen and (max-width: 600px) {
-    .headerText {
-      position: static;
-      margin: 20px;
-    }
-
-    #skillsGrid {
-        margin: 0px auto;
-        display: grid;
-        grid-template-rows: 350px 350px 350px;
-        grid-template-columns: 1fr; 
-        grid-template-areas: 
-        "research"
-        "design"
-        "webDev"
-    }
-  }

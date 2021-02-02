@@ -1,0 +1,41 @@
+
+h1 {
+    font: normal normal bold 36px/55px Playfair Display;
+    color: #333;
+    text-align: left;
+}
+
+h5 {
+    font: normal normal bold 20px Playfair Display;
+    color: #333;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.jumbotron {
+    height: 500px;
+    padding-top: 315px;
+}
+
+.container {
+    width: 50%;
+    float: left;
+    padding-left: 75px;
+    padding-right: 55px;
+}
+
+.jumbotron {
+    background-image: url(../images/non-profit-hero@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel {
+    width: 50%;
+    height: auto;
+}
+

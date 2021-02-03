@@ -21,11 +21,22 @@ p {
     padding-top: 315px;
 }
 
-.container {
-    width: 50%;
+.copy-container-left {
     float: left;
-    padding-left: 75px;
-    padding-right: 55px;
+    width: 650px;
+    padding-left: 200px;
+}
+
+.copy-container-right {
+    float: left;
+    width: 650px;
+    padding-right: 200px;
+}
+
+.container {
+    width: 750px;
+    float: left;
+    padding-left: 100px;
 }
 
 .jumbotron {
@@ -35,7 +46,14 @@ p {
 }
 
 .carousel {
-    width: 50%;
+    width:700px; 
     height: auto;
 }
 
+.imageContainer {
+    padding-left: 75px;
+}
+
+.pagination-container {
+    height: 250px;
+}

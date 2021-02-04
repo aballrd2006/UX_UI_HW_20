@@ -25,7 +25,7 @@ body {
     color: #9a584d;
 }
 
-#navBar a:hover, .readMore:hover{
+#navBar a:hover {
     color: #CB8158;
 }
 
@@ -149,6 +149,11 @@ p {
     font: normal normal bold 18px/20px Lato;
     letter-spacing: 0.45px;
     color: #9A584D;
+    text-decoration: none;
+}
+
+.readMore:hover {
+    color: #CB8158;
     text-decoration-line: underline;
 }
 

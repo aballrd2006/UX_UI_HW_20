@@ -36,7 +36,8 @@ p {
 .container {
     width: 750px;
     float: left;
-    padding-left: 100px;
+    padding-left: 75px;
+    padding-right: 25px;
 }
 
 .jumbotron {
@@ -56,4 +57,21 @@ p {
 
 .pagination-container {
     height: 250px;
+}
+
+.home-button {
+    font: normal normal bold 16px/20px Lato;
+    text-align: center;
+    color: #9A584D;
+    text-decoration: none;
+    display: block;
+}
+
+.home-button:hover {
+    color: #CB8158;
+    text-decoration-line: underline;
+}
+
+.button-container {
+    height: 100px;
 }
